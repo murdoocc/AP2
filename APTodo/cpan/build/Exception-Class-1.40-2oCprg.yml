@@ -1,0 +1,72 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: D/DR/DROLSKY/Exception-Class-1.40.tar.gz
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Exception::Class: 1
+    Exception::Class::Base: 1
+  ID: D/DR/DROLSKY/Exception-Class-1.40.tar.gz
+  RO:
+    CPAN_USERID: DROLSKY
+    CPAN_VERSION: '1.40'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Exception-Class-1.40-2oCprg
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211963
+  localfile: C:\ActivePerl\cpan\sources\authors\id\D\DR\DROLSKY\Exception-Class-1.40.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211959
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211962
+  mandatory: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+      File::Spec: '0'
+      Test::More: '0.96'
+      vars: '0'
+    opt_build_requires:
+      CPAN::Meta: '2.120900'
+    opt_requires: {}
+    requires:
+      Class::Data::Inheritable: '0.02'
+      Devel::StackTrace: '2.00'
+      Scalar::Util: '0'
+      base: '0'
+      overload: '0'
+      perl: '5.008001'
+      strict: '0'
+      warnings: '0'
+  reqtype: b
+  sponsored_mods:
+    Class::Data::Inheritable: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211939
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211940
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211963

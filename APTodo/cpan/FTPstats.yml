@@ -1,0 +1,178 @@
+---
+history:
+- attempts:
+  - method: dleasy
+    start: 1570586991.27251
+    url: &1 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570586993.7955
+  file: authors/01mailrc.txt.gz
+  filesize: 258424
+  start: 1570586991.27119
+  thesiteurl: *1
+- attempts:
+  - method: dleasy
+    start: 1570586993.80186
+    url: &2 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570586996.76429
+  file: modules/02packages.details.txt.gz
+  filesize: 2227676
+  start: 1570586993.80153
+  thesiteurl: *2
+- attempts:
+  - method: dleasy
+    start: 1570586996.77906
+    url: &3 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570586997.23485
+  file: modules/03modlist.data.gz
+  filesize: 248
+  start: 1570586996.778
+  thesiteurl: *3
+- attempts:
+  - method: dleasy
+    start: 1570587026.26756
+    url: &4 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570587027.07002
+  file: authors/id/D/DV/DVEEDEN/DBD-mysql-4.050.tar.gz
+  filesize: 161579
+  start: 1570587026.26657
+  thesiteurl: *4
+- attempts:
+  - method: dleasy
+    start: 1570587027.27802
+    url: &5 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570587027.74867
+  file: authors/id/D/DV/DVEEDEN/CHECKSUMS
+  filesize: 3299
+  start: 1570587027.27011
+  thesiteurl: *5
+- attempts:
+  - method: dleasy
+    start: 1570587034.70883
+    url: &6 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570587035.43273
+  file: authors/id/M/MA/MATTN/Devel-CheckLib-1.13.tar.gz
+  filesize: 15450
+  start: 1570587034.70555
+  thesiteurl: *6
+- attempts:
+  - method: dleasy
+    start: 1570587035.43882
+    url: &7 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570587035.95698
+  file: authors/id/M/MA/MATTN/CHECKSUMS
+  filesize: 39512
+  start: 1570587035.4362
+  thesiteurl: *7
+- attempts:
+  - method: dleasy
+    start: 1570587045.95182
+    url: &8 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570587046.70286
+  file: authors/id/R/RU/RURBAN/Mock-Config-0.03.tar.gz
+  filesize: 6139
+  start: 1570587045.95088
+  thesiteurl: *8
+- attempts:
+  - method: dleasy
+    start: 1570587046.7096
+    url: &9 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1570587047.549
+  file: authors/id/R/RU/RURBAN/CHECKSUMS
+  filesize: 230081
+  start: 1570587046.70667
+  thesiteurl: *9
+- attempts:
+  - method: dleasy
+    start: 1571086639.7159
+    url: &10 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1571086642.99979
+  file: authors/01mailrc.txt.gz
+  filesize: 258454
+  start: 1571086639.71459
+  thesiteurl: *10
+- attempts:
+  - method: dleasy
+    start: 1571086643.06929
+    url: &11 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1571086650.08554
+  file: modules/02packages.details.txt.gz
+  filesize: 2229193
+  start: 1571086643.06822
+  thesiteurl: *11
+- attempts:
+  - method: dleasy
+    start: 1571086650.20026
+    url: &12 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1571086650.87878
+  file: modules/03modlist.data.gz
+  filesize: 248
+  start: 1571086650.19908
+  thesiteurl: *12
+- attempts:
+  - method: dleasy
+    start: 1571086680.85229
+    url: &13 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1571086683.60845
+  file: authors/id/T/TI/TIMB/DBI-1.642.tar.gz
+  filesize: 604581
+  start: 1571086680.84731
+  thesiteurl: *13
+- attempts:
+  - method: dleasy
+    start: 1571086683.75545
+    url: &14 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1571086684.48454
+  file: authors/id/T/TI/TIMB/CHECKSUMS
+  filesize: 30621
+  start: 1571086683.74677
+  thesiteurl: *14
+- attempts:
+  - method: dleasy
+    start: 1571087339.06886
+    url: &15 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1571087340.0667
+  file: authors/id/J/JW/JWB/Proc-ProcessTable-0.59.tar.gz
+  filesize: 75949
+  start: 1571087339.06747
+  thesiteurl: *15
+- attempts:
+  - method: dleasy
+    start: 1571087340.08761
+    url: &16 !!perl/hash:CPAN::URL
+      FROM: USER
+      TEXT: http://cpan.strawberryperl.com/
+  end: 1571087340.8762
+  file: authors/id/J/JW/JWB/CHECKSUMS
+  filesize: 39859
+  start: 1571087340.079
+  thesiteurl: *16

@@ -1,0 +1,8 @@
+cpanm (App::cpanminus) 1.7041 on perl 5.024000 built for MSWin32-x64-multi-thread
+Work directory is C:\ACTIVE~1\data/.cpanm/work/1478620986.7628
+You have make C:\ActivePerl\c\bin\dmake.exe
+You have LWP 6.15
+You have C:\cygwin64\bin\tar.exe, C:\cygwin64\bin\gzip.exe and C:\cygwin64\bin\bzip2.exe
+You have C:\cygwin64\bin\unzip.exe
+Searching Dancer () on cpanmetadb ...
+Dancer is up to date. (1.3202)

@@ -1,0 +1,34 @@
+cpanm (App::cpanminus) 1.7041 on perl 5.024000 built for MSWin32-x64-multi-thread
+Work directory is C:\ACTIVE~1\data/.cpanm/work/1478769718.5744
+You have make C:\ActivePerl\c\bin\dmake.exe
+You have LWP 6.15
+You have C:\cygwin64\bin\tar.exe, C:\cygwin64\bin\gzip.exe and C:\cygwin64\bin\bzip2.exe
+You have C:\cygwin64\bin\unzip.exe
+Searching Dancer::Plugin::FlashMessage () on cpanmetadb ...
+--> Working on Dancer::Plugin::FlashMessage
+Fetching http://www.cpan.org/authors/id/D/DA/DAMS/Dancer-Plugin-FlashMessage-0.314.tar.gz
+-> OK
+Unpacking Dancer-Plugin-FlashMessage-0.314.tar.gz
+Entering Dancer-Plugin-FlashMessage-0.314
+Checking configure dependencies from META.yml
+Checking if you have ExtUtils::MakeMaker 6.58 ... Yes (7.16)
+Checking if you have Module::Build 0.3601 ... Yes (0.4218)
+Configuring Dancer-Plugin-FlashMessage-0.314
+Running Build.PL
+-> OK
+Checking dependencies from MYMETA.json ...
+Checking if you have Test::More 0 ... Yes (1.302059)
+Checking if you have Carp 0 ... Yes (1.40)
+Checking if you have Module::Build 0.3601 ... Yes (0.4218)
+Checking if you have Dancer::Test 0 ... Yes (1.3202)
+Checking if you have Dancer::Plugin 0 ... Yes (1.3202)
+Checking if you have Dancer 1.3001 ... Yes (1.3202)
+Checking if you have warnings 0 ... Yes (1.36)
+Checking if you have File::Temp 0 ... Yes (0.2304)
+Checking if you have English 0 ... Yes (1.10)
+Checking if you have strict 0 ... Yes (1.11)
+Checking if you have File::Find 0 ... Yes (1.34)
+Building and testing Dancer-Plugin-FlashMessage-0.314
+-> OK
+Successfully installed Dancer-Plugin-FlashMessage-0.314
+1 distribution installed

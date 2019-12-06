@@ -1,0 +1,62 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Devel::Hide
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Devel::Hide: 1
+  ID: F/FE/FERREIRA/Devel-Hide-0.0009.tar.gz
+  RO:
+    CPAN_USERID: FERREIRA
+    CPAN_VERSION: '0.0009'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Devel-Hide-0.0009-YcEtfY
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211413
+  localfile: C:\ActivePerl\cpan\sources\authors\id\F\FE\FERREIRA\Devel-Hide-0.0009.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211411
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211412
+  mandatory: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+    opt_build_requires: {}
+    opt_requires:
+      Test::Pod: '1.18'
+      Test::Pod::Coverage: '1.04'
+    requires:
+      Test::More: '0'
+  reqtype: b
+  sponsored_mods:
+    Test::Pod::Coverage: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211406
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211407
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211413

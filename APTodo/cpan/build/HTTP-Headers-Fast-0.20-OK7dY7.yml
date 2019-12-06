@@ -1,0 +1,62 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: HTTP::Headers::Fast
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    HTTP::Headers::Fast: 1
+  ID: T/TO/TOKUHIROM/HTTP-Headers-Fast-0.20.tar.gz
+  RO:
+    CPAN_USERID: TOKUHIROM
+    CPAN_VERSION: '0.20'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\HTTP-Headers-Fast-0.20-OK7dY7
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211616
+  localfile: C:\ActivePerl\cpan\sources\authors\id\T\TO\TOKUHIROM\HTTP-Headers-Fast-0.20.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211614
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211615
+  mandatory: 1
+  modulebuild: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Test::More: '0.98'
+      Test::Requires: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      HTTP::Date: '0'
+      perl: '5.008001'
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211610
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211612
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211616

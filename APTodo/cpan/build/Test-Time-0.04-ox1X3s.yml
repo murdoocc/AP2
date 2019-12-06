@@ -1,0 +1,62 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: S/SA/SATOH/Test-Time-0.04.tar.gz
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Test::Time: 1
+  ID: S/SA/SATOH/Test-Time-0.04.tar.gz
+  RO:
+    CPAN_USERID: SATOH
+    CPAN_VERSION: '0.04'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Test-Time-0.04-ox1X3s
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211590
+  localfile: C:\ActivePerl\cpan\sources\authors\id\S\SA\SATOH\Test-Time-0.04.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211588
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211590
+  mandatory: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '6.36'
+      Test::More: '0'
+      Test::Name::FromLine: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      Filter::Util::Call: '0'
+  reqtype: b
+  sponsored_mods:
+    Test::Name::FromLine: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211567
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211568
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211590

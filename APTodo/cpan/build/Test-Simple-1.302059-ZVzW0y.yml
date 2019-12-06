@@ -1,0 +1,111 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Test::More
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Test2: 1
+    Test2::API: 1
+    Test2::API::Breakage: 1
+    Test2::API::Context: 1
+    Test2::API::Instance: 1
+    Test2::API::Stack: 1
+    Test2::Event: 1
+    Test2::Event::Bail: 1
+    Test2::Event::Diag: 1
+    Test2::Event::Exception: 1
+    Test2::Event::Generic: 1
+    Test2::Event::Info: 1
+    Test2::Event::Note: 1
+    Test2::Event::Ok: 1
+    Test2::Event::Plan: 1
+    Test2::Event::Skip: 1
+    Test2::Event::Subtest: 1
+    Test2::Event::Waiting: 1
+    Test2::Formatter: 1
+    Test2::Formatter::TAP: 1
+    Test2::Hub: 1
+    Test2::Hub::Interceptor: 1
+    Test2::Hub::Interceptor::Terminator: 1
+    Test2::Hub::Subtest: 1
+    Test2::IPC: 1
+    Test2::IPC::Driver: 1
+    Test2::IPC::Driver::Files: 1
+    Test2::Util: 1
+    Test2::Util::ExternalMeta: 1
+    Test2::Util::HashBase: 1
+    Test2::Util::Trace: 1
+    Test::Builder: 1
+    Test::Builder::Formatter: 1
+    Test::Builder::IO::Scalar: 1
+    Test::Builder::Module: 1
+    Test::Builder::Tester: 1
+    Test::Builder::Tester::Color: 1
+    Test::Builder::Tester::Tie: 1
+    Test::Builder::TodoDiag: 1
+    Test::More: 1
+    Test::Simple: 1
+    Test::Tester: 1
+    Test::Tester::Capture: 1
+    Test::Tester::CaptureRunner: 1
+    Test::Tester::Delegate: 1
+    Test::use::ok: 1
+    ok: 1
+  ID: E/EX/EXODIST/Test-Simple-1.302059.tar.gz
+  RO:
+    CPAN_USERID: EXODIST
+    CPAN_VERSION: '1.302059'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Test-Simple-1.302059-ZVzW0y
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211936
+  localfile: C:\ActivePerl\cpan\sources\authors\id\E\EX\EXODIST\Test-Simple-1.302059.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211904
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211936
+  mandatory: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      File::Spec: '0'
+      File::Temp: '0'
+      PerlIO: '0'
+      Scalar::Util: '1.13'
+      Storable: '0'
+      perl: '5.008001'
+      utf8: '0'
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211898
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211899
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211936

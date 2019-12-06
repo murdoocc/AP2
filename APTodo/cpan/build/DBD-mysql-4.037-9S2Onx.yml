@@ -1,0 +1,68 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: DBD::mysql
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Bundle::DBD::mysql: 1
+    DBD::mysql: 1
+    DBD::mysql::GetInfo: 1
+    DBD::mysql::db: 1
+    DBD::mysql::dr: 1
+    DBD::mysql::st: 1
+  ID: M/MI/MICHIELB/DBD-mysql-4.037.tar.gz
+  RO:
+    CPAN_USERID: MICHIELB
+    CPAN_VERSION: '4.037'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\DBD-mysql-4.037-9S2Onx
+  incommandcolor: 1
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1475635471
+  localfile: C:\ActivePerl\cpan\sources\authors\id\M\MI\MICHIELB\DBD-mysql-4.037.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1475635445
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1475635470
+  mandatory: 1
+  negative_prefs_cache: 2
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+      Test::Deep: '0'
+      Test::Simple: '0.90'
+      Time::HiRes: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      DBI: '1.609'
+      perl: '5.008001'
+  reqtype: c
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1475635434
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1475635437
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1475635471

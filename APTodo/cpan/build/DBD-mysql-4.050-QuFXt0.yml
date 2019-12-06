@@ -1,0 +1,43 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: D/DV/DVEEDEN/DBD-mysql-4.050.tar.gz
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Bundle::DBD::mysql: 1
+    DBD::mysql: 1
+    DBD::mysql::GetInfo: 1
+    DBD::mysql::db: 1
+    DBD::mysql::dr: 1
+    DBD::mysql::st: 1
+  ID: D/DV/DVEEDEN/DBD-mysql-4.050.tar.gz
+  RO:
+    CPAN_USERID: DVEEDEN
+    CPAN_VERSION: '4.050'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\DBD-mysql-4.050-QuFXt0
+  incommandcolor: 1
+  localfile: C:\ActivePerl\cpan\sources\authors\id\D\DV\DVEEDEN\DBD-mysql-4.050.tar.gz
+  mandatory: 1
+  negative_prefs_cache: 2
+  notest: 1
+  prefs: {}
+  reqtype: c
+  sponsored_mods:
+    Devel::CheckLib: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571086962
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: 1
+    TEXT: NO 'c:\ActivePerl\perl\bin\perl.exe Makefile.PL' returned status 512
+    TIME: 1571087027
+perl:
+  $^X: c:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1571087027

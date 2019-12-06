@@ -1,0 +1,69 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Test::SharedFork
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Test::SharedFork: 1
+    Test::SharedFork::Array: 1
+    Test::SharedFork::Scalar: 1
+    Test::SharedFork::Store: 1
+  ID: E/EX/EXODIST/Test-SharedFork-0.35.tar.gz
+  RO:
+    CPAN_USERID: EXODIST
+    CPAN_VERSION: '0.35'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Test-SharedFork-0.35-DndI1u
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211684
+  localfile: C:\ActivePerl\cpan\sources\authors\id\E\EX\EXODIST\Test-SharedFork-0.35.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211641
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211684
+  mandatory: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      App::Prove: '0'
+      Test::Builder::Tester: '0'
+      Test::Requires: '0'
+      Time::HiRes: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      File::Temp: '0'
+      Test::Builder: '0.32'
+      Test::Builder::Module: '0'
+      Test::More: '0.88'
+      perl: 5.008_001
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211635
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211636
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211684

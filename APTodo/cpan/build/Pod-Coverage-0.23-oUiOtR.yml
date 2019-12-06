@@ -1,0 +1,66 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Pod::Coverage: 1
+    Pod::Coverage::CountParents: 1
+    Pod::Coverage::ExportOnly: 1
+    Pod::Coverage::Extractor: 1
+    Pod::Coverage::Overloader: 1
+  ID: R/RC/RCLAMP/Pod-Coverage-0.23.tar.gz
+  RO:
+    CPAN_USERID: RCLAMP
+    CPAN_VERSION: '0.23'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Pod-Coverage-0.23-oUiOtR
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211445
+  localfile: C:\ActivePerl\cpan\sources\authors\id\R\RC\RCLAMP\Pod-Coverage-0.23.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211442
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211444
+  mandatory: ''
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      Devel::Symdump: '2.01'
+      Pod::Find: '0.21'
+      Pod::Parser: '1.13'
+      Test::More: '0'
+  reqtype: r
+  sponsored_mods:
+    Devel::Symdump: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211424
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211425
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211445

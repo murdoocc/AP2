@@ -1,0 +1,64 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: JSON::MaybeXS
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    JSON::MaybeXS: 1
+  ID: E/ET/ETHER/JSON-MaybeXS-1.003008.tar.gz
+  RO:
+    CPAN_USERID: ETHER
+    CPAN_VERSION: '1.003008'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\JSON-MaybeXS-1.003008-RCXv4a
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476212074
+  localfile: C:\ActivePerl\cpan\sources\authors\id\E\ET\ETHER\JSON-MaybeXS-1.003008.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476212072
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476212074
+  mandatory: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Test::More: '0.88'
+    opt_build_requires: {}
+    opt_requires:
+      Cpanel::JSON::XS: '2.3310'
+    requires:
+      Carp: '0'
+      Cpanel::JSON::XS: '2.3310'
+      JSON::PP: '2.27300'
+      Scalar::Util: '0'
+      perl: '5.006'
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476212066
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476212068
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476212074

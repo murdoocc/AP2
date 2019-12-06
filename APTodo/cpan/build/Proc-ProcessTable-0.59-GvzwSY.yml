@@ -1,0 +1,64 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Proc::ProcessTable
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Proc::Killall: 1
+    Proc::Killfam: 1
+    Proc::ProcessTable: 1
+    Proc::ProcessTable::Process: 1
+  ID: J/JW/JWB/Proc-ProcessTable-0.59.tar.gz
+  RO:
+    CPAN_USERID: JWB
+    CPAN_VERSION: '0.59'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Proc-ProcessTable-0.59-GvzwSY
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571087358
+  localfile: C:\ActivePerl\cpan\sources\authors\id\J\JW\JWB\Proc-ProcessTable-0.59.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571087351
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571087357
+  mandatory: ''
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+      Test::More: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      File::Find: '0'
+      Storable: '0'
+      perl: '5.006'
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571087341
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571087342
+perl:
+  $^X: c:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1571087358

@@ -1,0 +1,74 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: HTTP::Body
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    HTTP::Body: 1
+    HTTP::Body::MultiPart: 1
+    HTTP::Body::OctetStream: 1
+    HTTP::Body::UrlEncoded: 1
+    HTTP::Body::XForms: 1
+    HTTP::Body::XFormsMultipart: 1
+  ID: G/GE/GETTY/HTTP-Body-1.22.tar.gz
+  RO:
+    CPAN_USERID: GETTY
+    CPAN_VERSION: '1.22'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\HTTP-Body-1.22-qZG_I3
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211506
+  localfile: C:\ActivePerl\cpan\sources\authors\id\G\GE\GETTY\HTTP-Body-1.22.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211503
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211506
+  mandatory: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      Encode: '0'
+      ExtUtils::MakeMaker: '0'
+      File::Spec::Functions: '0'
+      File::Temp: '0.14'
+      HTTP::Request::Common: '0'
+      Test::Deep: '0'
+      Test::More: '0.86'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      Carp: '0'
+      Digest::MD5: '0'
+      File::Temp: '0.14'
+      HTTP::Headers: '0'
+      IO::File: '1.14'
+  reqtype: r
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211496
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211496
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211506

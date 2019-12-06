@@ -1,0 +1,66 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Devel::CheckLib
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Devel::CheckLib: 1
+  ID: M/MA/MATTN/Devel-CheckLib-1.13.tar.gz
+  RO:
+    CPAN_USERID: MATTN
+    CPAN_VERSION: '1.13'
+    DESCRIPTION: ~
+  archived: tar
+  badtestcnt: 0
+  build_dir: C:\ActivePerl\cpan\build\Devel-CheckLib-1.13-QmQoMh
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571087021
+  localfile: C:\ActivePerl\cpan\sources\authors\id\M\MA\MATTN\Devel-CheckLib-1.13.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571086979
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 2
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571087021
+  mandatory: 1
+  negative_prefs_cache: 2
+  notest: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+      IO::CaptureOutput: '1.0801'
+      Mock::Config: '0.02'
+      Test::More: '0.62'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      Exporter: '0'
+      File::Spec: '0'
+      File::Temp: '0.16'
+      perl: '5.00405'
+  reqtype: b
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571086967
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1571086969
+perl:
+  $^X: c:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1571087021

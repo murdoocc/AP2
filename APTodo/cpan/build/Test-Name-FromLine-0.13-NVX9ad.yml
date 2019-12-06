@@ -1,0 +1,66 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: Test::Name::FromLine
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Test::Name::FromLine: 1
+  ID: S/SA/SATOH/Test-Name-FromLine-0.13.tar.gz
+  RO:
+    CPAN_USERID: SATOH
+    CPAN_VERSION: '0.13'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Test-Name-FromLine-0.13-NVX9ad
+  incommandcolor: 2
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211585
+  localfile: C:\ActivePerl\cpan\sources\authors\id\S\SA\SATOH\Test-Name-FromLine-0.13.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211582
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211584
+  mandatory: 1
+  modulebuild: 1
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::CBuilder: '0'
+      ExtUtils::MakeMaker: '6.36'
+      Test::Differences: '0'
+      Test::Fatal: '0'
+      Test::More: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      File::Slurp: '0'
+      Filter::Util::Call: '0'
+      Test::Builder: '0'
+  reqtype: b
+  sponsored_mods: {}
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211574
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211578
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211585

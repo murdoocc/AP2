@@ -1,0 +1,66 @@
+---
+distribution: !!perl/hash:CPAN::Distribution
+  CALLED_FOR: N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz
+  CHECKSUM_STATUS: OK
+  CONTAINSMODS:
+    Test::Pod::Coverage: 1
+  ID: N/NE/NEILB/Test-Pod-Coverage-1.10.tar.gz
+  RO:
+    CPAN_USERID: NEILB
+    CPAN_VERSION: '1.10'
+    DESCRIPTION: ~
+  archived: tar
+  build_dir: C:\ActivePerl\cpan\build\Test-Pod-Coverage-1.10-Sfcn4g
+  install: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211452
+  localfile: C:\ActivePerl\cpan\sources\authors\id\N\NE\NEILB\Test-Pod-Coverage-1.10.tar.gz
+  make: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211450
+  make_test: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211452
+  mandatory: ''
+  negative_prefs_cache: 1
+  prefs:
+    install: {}
+  prereq_pm:
+    build_requires:
+      ExtUtils::MakeMaker: '0'
+      Test::Builder::Tester: '0'
+      Test::More: '0'
+      lib: '0'
+    opt_build_requires: {}
+    opt_requires: {}
+    requires:
+      Pod::Coverage: '0'
+      Test::Builder: '0'
+      perl: '5.006'
+      strict: '0'
+      warnings: '0'
+  reqtype: r
+  sponsored_mods:
+    Pod::Coverage: 1
+  unwrapped: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211417
+  writemakefile: !!perl/hash:CPAN::Distrostatus
+    COMMANDID: 1
+    FAILED: ''
+    TEXT: YES
+    TIME: 1476211418
+perl:
+  $^X: C:\ActivePerl\perl\bin\perl.exe
+  mtime_$^X: 1462934652
+  mtime_dll: 0
+  sitearchexp: C:\ActivePerl\perl\site\lib
+time: 1476211452
